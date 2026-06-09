@@ -22,7 +22,7 @@ services:
       - key: CLOUDINARY_API_SECRET
         sync: false        # Set in Render dashboard
       - key: FRONTEND_URL
-        sync: false        # e.g. https://matty-frontend.onrender.com
+        value: https://matty-6xv4.onrender.com
 
   # ─── Frontend (Vite / React static site) ────────────────────────────────────
   - type: web
@@ -37,4 +37,4 @@ services:
         destination: /index.html
     envVars:
       - key: VITE_API_URL
-        sync: false        # e.g. https://matty-backend.onrender.com
+        value: https://matty-design.onrender.com

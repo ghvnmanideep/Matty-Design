@@ -13,6 +13,7 @@ connectDB();
 const allowedOrigins = [
   "http://localhost:5173",
   "http://localhost:4173",
+  "https://matty-6xv4.onrender.com",
   process.env.FRONTEND_URL,
 ].filter(Boolean);
 
