@@ -22,7 +22,7 @@ export default function Login() {
     setLoading(true);
     try {
       const res = await axios.post(
-        (import.meta.env.VITE_API_URL || "http://localhost:5000") +
+        (import.meta.env.VITE_API_URL || "https://matty-design.onrender.com") +
           "/api/auth/login",
         { username, password }
       );
@@ -118,9 +118,6 @@ export default function Login() {
                 "Sign In"
               )}
             </button>
-            <div className="text-center mt-3 text-sm text-gray-400 font-medium">
-              Test Admin: admin / admin123
-            </div>
           </form>
 
           <div className="mt-8">

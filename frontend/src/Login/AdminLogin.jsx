@@ -113,6 +113,9 @@ export default function AdminLogin() {
                 "Access Dashboard"
               )}
             </button>
+            <div className="text-center mt-3 text-sm text-gray-400 font-medium">
+              Test Admin: matty_admin / 123456
+            </div>
           </form>
         </div>
       </div>
