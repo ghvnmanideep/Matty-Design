@@ -77,7 +77,7 @@ export default function Login() {
                   required
                   value={username}
                   onChange={(e) => setUsername(e.target.value)}
-                  className="form-input pl-10"
+                  className="form-input !pl-10"
                   placeholder="Enter your username"
                 />
               </div>
@@ -99,7 +99,7 @@ export default function Login() {
                   required
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
-                  className="form-input pl-10"
+                  className="form-input !pl-10"
                   placeholder="••••••••"
                 />
               </div>
@@ -118,6 +118,9 @@ export default function Login() {
                 "Sign In"
               )}
             </button>
+            <div className="text-center mt-3 text-sm text-gray-400 font-medium">
+              Test Admin: admin / admin123
+            </div>
           </form>
 
           <div className="mt-8">
